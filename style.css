@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@media(max-width: 3000px){
+
+
+    body{
+        
+        margin: 0 0;
+        padding: 0 0;
+
+    }
+    div{
+        
+        text-align: center;
+    }
+    .fila1{
+        height: 10%;
+
+    }
+
+    .arreglo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .caracteristicas{
+        
+        flex-direction: column;
+        justify-content: center;
+        padding: 12px 15px 17px 15px;
+        text-align: start;
+        color: white;
+        gap: 10px;
+    }
+    .contenedorBarras{
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 0;
+
+    }
+    .barras{
+        margin: 0;
+        border-radius: 7px;
+    }
+    .lugarTextoStats{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #numeroStat{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: start;
+        color: white;
+        gap: 20px;
+    }
+    .fila3{
+        display: flex;
+        
+    }
+    #imagenPokemon{
+        position: absolute;
+        width: 350px;
+        transform: translate(-50%,0);
+        left: 65%; 
+        top: 131px;
+        height: auto;
+        margin: 0 0;
+
+        
+        
+    }
+
+    .numeroPokemon{
+        position: absolute ;
+        font-family: Montserrat;
+        font-weight: 700;
+        transform: translate(-50%,0);
+        left: 54%;  
+        top: 50px;
+        opacity: 50%;
+        
+        
+    }
+    .imagenTipo{
+        position: absolute;
+        width: 70px;
+        transform: translate(-50%,0);
+        left: 31%; 
+        top: 215px;
+        height: auto;
+        margin: 0 0;
+    }
+    .app{
+        margin: 5px 270px;
+    }
+    .nombrePokemon{
+        position: absolute;
+        transform: translate(-50%,0);
+        left: 43%;
+        top: 260px;
+        font-size: 35px;
+        font-family: Montserrat;
+        font-weight: 700;
+        color: white;
+    }
+    .datos{
+        justify-content: space-between;
+        position: absolute;
+        transform: translate(-50%,0);
+        left: 40%;
+        top: 328px;
+        font-family: Montserrat;
+        font-weight: 100;
+        color: white;
+        width: 300px;
+    }
+    .caractPokemon{
+        font-size: 15px;
+    }
+    .nombreTipo{
+        position: absolute;
+        transform: translate(-50%,0);
+        left: 37%;
+        top: 250px;
+        font-size: 15px;
+        font-family: Montserrat;
+        font-weight: 700;
+        color: white;
+    }
+    #datoSpAttack{
+        margin: 0 0 0px 0;
+    }
+
+
+
+
+
+    /* COLORES DE FONDO */
+    .planta {
+        background: linear-gradient( to right, #58ba90 0%, #1a7e40 60%);
+    }
+    .bicho{
+        background: linear-gradient( to right, #67C05F 0%, #34C827 60%);
+    }
+    .siniestro{
+        background: linear-gradient( to right, #6B6A6A 0%, #212121 60%);
+    }
+    .dragon{
+        background: linear-gradient( to right, #0069FF 0%, #04439D 60%);
+    }   
+    .electrico{
+        background: linear-gradient( to right, #F7F707 0%, #DDCC01 60%);
+    }
+    .hada{
+        background: linear-gradient( to right, #F357BF 0%, #BD0580 60%);
+    }
+    .lucha{
+        background: linear-gradient( to right, #F05353 0%, #FC0000 60%);
+    }
+    .fuego{
+        background: linear-gradient( to right, #E8A14C 0%, #EE7000 60%);
+    }
+    .volador{
+        background: linear-gradient( to right, #5BDDE8 0%, #02C6D6 60%);
+    }
+    .fantasma{
+        background: linear-gradient( to right, #724F93 0%, #46008B 60%);
+    }
+    .tierra{
+        background: linear-gradient( to right, #C98F4E 0%, #C46800 60%);
+    }
+    .hielo{
+        background: linear-gradient( to right, #6ED2CA 0%, #02DECD 60%);
+    }
+    .normal{
+        background: linear-gradient( to right, #787979 0%, #555757 60%);
+    }
+    .veneno{
+        background: linear-gradient( to right, #6D3AAA 0%, #481487 60%);
+    }
+    .psiquico{
+        background: linear-gradient( to right, #C56AF0 0%, #F70069 60%);
+    }
+    .roca{
+        background: linear-gradient( to right, #B99F74 0%, #786648 60%);
+    }
+    .acero{
+        background: linear-gradient( to right, #9B9B9B 0%, #7E7E7E 60%);
+    }
+    .agua{
+        background: linear-gradient( to right, #5E8BEC 0%, #0051FF 60%);
+    }
+    .desconocido{
+        background: linear-gradient( to right, #D0E547 0%, #BCD900 60%);
+    }
+}
+@media(max-width: 900px){
+    .app{
+        margin:0;
+    }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- USO DE BOOTSTRAP -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- HOJA DE ESTILOS -->
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body id="cuerpo" class="planta">
+        <div class="app">
+            <!-- FILA 1 -->
+            <div class="row fila1">
+                <div class="barraNavegacion" >
+                    <nav class="navbar">
+                        <div id="formulario">
+                          <form class="d-flex" role="search">
+                            <input class="form-control me-2" autocomplete="off" type="search" placeholder="Ingrese Pokemon" id="search">
+                            <button class="btn btn-outline-success" style="background-color: grey; color: white;" type="submit">Search</button>
+                          </form> 
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- FILA 2 -->
+            <div class="fila3 " style="height: 400px;">
+                <div id="numeroPokemon"></div>
+                <img class="imagenPokemon" id="imagenPokemon">
+                <img class="imagenTipo" id="imagenTipo">
+                <div id="nombreTipo"></div>
+                <div id="nombrePokemon"></div>
+                <div style="display: flex; flex-direction: row; " clasS="datos">
+                    <div>
+                        <h5 style="margin: 0; text-align: start;" class="caractPokemon">Height</h5>
+                        <h5 style="margin: 0; text-align: start;" class="caractPokemon">Weight</h5>
+                        <h5 style="margin: 0; text-align: start;" class="caractPokemon">Abilities</h5>
+                    </div> 
+                    <div>
+                        <div  style="text-align: end;" id="caractPokemon1">
+                        </div>
+                        <div  style="text-align: end;" id="caractPokemon2">
+                        </div>
+                        <div  style="text-align: end;" id="caractPokemon3">
+                        </div>
+                    </div> 
+                    
+                    
+                </div>
+                
+            </div>
+            <!-- FILA 3 -->
+            <div class="row fila4">
+                <div class="col-2 lugarTextoStats">
+                    <h5 style="color: white; font-size: 30px;">Stats</h5>
+                </div>
+                <div class="col-2 arreglo">
+                    <div class="container d-flex caracteristicas" >
+                        <h5 style="margin: 0;">Hp</h5>
+                        <h5 style="margin: 0;">Attack</h5>
+                        <h5 style="margin: 0;">Defense</h5>
+                        <h5 style="margin: 0;">Special Attack</h5>
+                        <h5 style="margin: 0;">Special Defense</h5>
+                        <h5 style="margin: 0;">Speed</h5>
+                    </div>
+                </div>
+                <div class="col-7 contenedorBarras">
+                    <div id="datoHp" > </div>
+                    <div id="datoAttack" > </div>
+                    <div id="datoDefense" > </div>
+                    <div id="datoSpAttack" > </div>
+                    <div id="datoSpDefense" > </div>
+                    <div id="datoSpeed" > </div>
+                </div>
+                <div class="col-1 " id="numeroStat">
+                    <div id="numeroHp" > </div>
+                    <div id="numeroAttack" > </div>
+                    <div id="numeroDefense" > </div>
+                    <div id="numeroSpAttack" > </div>
+                    <div id="numeroSpDefense" > </div>
+                    <div id="numeroSpeed" > </div>
+                </div>
+            </div>
+        </div>
+        <!-- USO DE BOOTSTRAP -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- USO DE JAVASCRIPT -->
+        <script src="doc1.js"></script>
+    </body>
+</html>
